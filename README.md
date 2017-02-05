@@ -12,6 +12,7 @@ If you need flashing IoT lights for your game health bars head over to [lifeligh
 ### Requirements
 - Microsoft Windows
 - Python 2.7 [(link)](https://www.python.org/ftp/python/2.7/python-2.7.msi)
+- API endpoint to control lights, like [Home Assistant](https://home-assistant.io)
 
 ### First time installation
 - Clone this repository to a directory on your machine [(how-to)](https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-to-github-desktop/)
