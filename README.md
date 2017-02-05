@@ -6,8 +6,8 @@ Let your IoT lights flash in your team colors when you hit a goal in Rocket Leag
 
 goal-lights is heavily based on [lifelights](https://github.com/jjensn/lifelights) made by [jjensn](https://github.com/jjensn).
 I had the idea to let my desk lamp flash whenever I hit a goal in Rocket League. When I saw jjsesn solution I had to adapt it
-to work Rocket League. All I did was switch the watcher to detect changes in the goal display.
-If you need flashing IoT lights for your game health bars head over to [lifelights](https://github.com/jjensn/lifelights)!
+to work with Rocket League. All I did was switch the watcher to detect changes in the goal display.
+If you want to control your IoT lights with game health bars head over to [lifelights](https://github.com/jjensn/lifelights)!
 
 ### Requirements
 - Microsoft Windows
