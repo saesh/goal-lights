@@ -51,11 +51,11 @@ To compare the changed pixels the screenshot is converted to grayscale, blurred,
 
 For example when you play and no goal is detected the images of the steps look like this:
 
-![Background noise detected](http://imgur.com/nlST3y3)
+![Background noise detected](http://i.imgur.com/nlST3y3.png)
 
 When the number changes from 1 to 2 the difference is significant:
 
-![Significant change in pixels](http://imgur.com/dMu8Taa)
+![Significant change in pixels](http://i.imgur.com/dMu8Taa.png)
 
 If a goal is detected the average color of the screenshot is calculated to get the team color. Then an API call is made to
 Home Assistant to trigger the lights.
