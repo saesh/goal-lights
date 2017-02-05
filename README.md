@@ -53,7 +53,7 @@ For example when you play and no goal is detected the images of the steps look l
 
 ![Background noise detected](http://i.imgur.com/nlST3y3.png)
 
-When the number changes from 1 to 2 the difference is significant:
+When the number changes from 0 to 1 the difference is significant:
 
 ![Significant change in pixels](http://i.imgur.com/dMu8Taa.png)
 
