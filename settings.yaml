@@ -1,0 +1,25 @@
+---
+window_title: Rocket League (32-bit, DX9)
+scan_interval: 1.0
+watchers:
+  - name: 'Goal'
+    change_threshold: 0.08
+    requests:
+      - endpoint: 'http://10.0.1.5:8123/api/services/light/turn_on'
+        method: POST
+        delay: 0.0
+        payloads:
+          entity_id: 'light.desk'
+          rgb_color: 'RGB_PLACEHOLDER'
+          brightness: 255
+      - endpoint: 'http://10.0.1.5:8123/api/services/light/turn_on'
+        method: POST
+        delay: 15.0
+        payloads:
+          entity_id: 'light.desk'
+          flash: 'long'
+      - endpoint: 'http://10.0.1.5:8123/api/services/light/turn_off'
+        method: POST
+        delay: 2.0
+        payloads:
+          entity_id: 'light.desk'
